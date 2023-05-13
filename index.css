@@ -1,0 +1,31 @@
+body {
+    margin: 30px;
+    background-color: purple;
+}
+.innerdiv{
+    box-sizing: border-box;
+    border: 1px solid red;
+    width: 302px;
+    height: 301px;
+}
+
+.outerdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    float: left;
+    font-size: 5em;
+}
+
+p{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
